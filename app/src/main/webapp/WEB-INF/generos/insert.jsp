@@ -10,7 +10,7 @@
     <form action="/generos/insert" method="post">
         <div>
             <label> Nome:</label>
-            <input type = "text" name= "nome " />
+            <input type = "text" name= "nome" />
         </div>
         <a href="/generos/list">Voltar</a>
         <button type="submit">Salvar</button>
