@@ -13,8 +13,8 @@ public class GeneroController {
     @Autowired
     private GeneroRepository generoRepo;
 
-    @GetMapping
+    @RequestMapping("/insert")
     public String insert() {
-        return "/WEB-INF/generos/insert.jsp";
+        return "generos/insert";
     }
 }
