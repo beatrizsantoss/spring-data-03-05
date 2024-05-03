@@ -34,7 +34,7 @@ public class GeneroController {
 
     @RequestMapping("/list")
     public String list(Model ui) {
-        ui.addAtribute("generos", generoRepo.FindAll())
+        ui.addAttribute("generos", generoRepo.findAll());
         return "/generos/list";
     }
 }  
