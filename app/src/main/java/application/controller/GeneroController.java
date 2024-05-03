@@ -22,5 +22,5 @@ public class GeneroController {
     }
 
     @RequestMapping (value = "insert", method = RequestMethod.POST)
-    public String insert (@RequestParam ("nome"))
+    public String insert (@RequestParam ("nome"));
 }
