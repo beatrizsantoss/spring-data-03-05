@@ -8,6 +8,18 @@
     <body>
         <h1>Gêneros</h1>
         <a href="/generos/insert"> Novo Gênero </a>
+        <table>
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>&nbsp;</th>
+            <td>
+            <a href="/generos/update?id=${item.Id}">Editar</a>
+            <a href="/generos/delete?id=${item.Id}">Excluir</a>
+        </td>
+        </tr>
+            <c:forEach>
+        </table>
     </body>
 </html>
  
